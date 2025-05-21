@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manual Técnico: Pasos para la Creación del Sitio Web</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 40px 20px;
+            background-color: #f4f7f6;
+            color: #333;
+            line-height: 1.8;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 50px;
+            padding-bottom: 20px;
+            border-bottom: 3px solid #007bff;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            padding-top: 20px;
+        }
+
+        h1 {
+            color: #007bff;
+            font-size: 2.8em;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.2em;
+            color: #555;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            padding: 30px 50px;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        section {
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 1px dashed #e0e0e0;
+        }
+
+        section:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+
+        h2 {
+            color: #2c3e50;
+            font-size: 2em;
+            margin-top: 0;
+            margin-bottom: 20px;
+            border-left: 5px solid #007bff;
+            padding-left: 15px;
+        }
+
+        h3 {
+            color: #34495e;
+            font-size: 1.4em;
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+
+        p {
+            margin-bottom: 15px;
+        }
+
+        ul, ol {
+            margin-bottom: 15px;
+            padding-left: 25px;
+        }
+
+        ul li, ol li {
+            margin-bottom: 8px;
+            padding-left: 5px;
+        }
+
+        strong {
+            color: #007bff;
+        }
+
+        code {
+            background-color: #e9ecef;
+            padding: 2px 5px;
+            border-radius: 4px;
+            font-family: 'Consolas', 'Monaco', monospace;
+            font-size: 0.9em;
+            color: #c7254e;
+        }
+
+        .note {
+            background-color: #e6f2ff;
+            border-left: 5px solid #007bff;
+            padding: 15px 20px;
+            margin-top: 25px;
+            margin-bottom: 25px;
+            border-radius: 4px;
+            font-style: italic;
+            color: #2c3e50;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Manual Técnico: Creación y Despliegue de Sitio Web</h1>
+        <p>Este documento detalla los pasos esenciales y las decisiones técnicas tomadas durante el proceso de desarrollo de este sitio web personal, desde la conceptualización inicial hasta su publicación.</p>
+    </header>
+
+    <div class="container">
+        <section>
+            <h2>1. Diseño y Estructura Inicial (HTML)</h2>
+            <p>La fase inicial definió la arquitectura fundamental del sitio, optando por una estructura modular.</p>
+            <ul>
+                <li>Se diseñó una estructura base utilizando HTML5.</li>
+                <li>Se implementó un sistema de marcos (frames) para la navegación.</li>
+                <li>Se creó un archivo HTML dedicado al **menú de navegación**.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>2. Desarrollo de Contenidos Específicos</h2>
+            <p>Una vez establecida la base, se crearon las páginas individuales que componen el sitio.</p>
+            <ul>
+                <li>Página de Hoja de Vida (CV).</li>
+                <li>Página de Notas.</li>
+                <li>Galería de Imágenes.</li>
+                <li>Página de Video: Integración de contenido multimedia (ej., videos de YouTube).</li>
+                <li>Página de Juego.</li>
+                <li>Página de Pasos (este manual)**.</li>
+            </ul>
+            <div class="note">
+                <strong>Nota Técnica:</strong> La integración de videos de YouTube requiere usar la URL de incrustación (embed URL) y que el video permita la incrustación.
+            </div>
+        </section>
+
+        <section>
+            <h2>3. Estilización y Mejora Estética (CSS)</h2>
+            <p>Para dotar al sitio de una apariencia moderna, se aplicaron estilos CSS.</p>
+            <ul>
+                <li>Se definieron paletas de colores coherentes.</li>
+                <li>Implementación de tipografías legibles.</li>
+                <li>Uso de CSS Grid y Flexbox (o técnicas de posicionamiento) para diseños organizados.</li>
+                <li>Aplicación de sombras, bordes redondeados y efectos de transición/hover**.</li>
+            </ul>
+            <div class="note">
+                <strong>Consejo de Diseño:</strong> En galerías, <code>object-fit: cover;</code> es clave para que las imágenes mantengan su proporción.
+            </div>
+        </section>
+
+        <section>
+            <h2>4. Pruebas Locales y Depuración</h2>
+            <p>Antes del despliegue final, se realizaron pruebas exhaustivas para asegurar funcionalidad y compatibilidad.</p>
+            <ul>
+                <li>Pruebas de navegación y enlaces.</li>
+                <li>Compatibilidad de navegador (Chrome, Firefox, Edge, etc.).</li>
+                <li>Revisión de contenido y corrección de errores.</li>
+                <li>Validación HTML/CSS.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>5. Despliegue y Publicación</h2>
+            <p>El paso final consistió en hacer el sitio accesible al público.</p>
+            <ul>
+                <li>Selección de una plataforma de alojamiento web (GitHub Pages).</li>
+                <li>Preparación y subida de los archivos del proyecto al repositorio.</li>
+                <li>Verificación de la URL pública del sitio.</li>
+            </ul>
+            <div class="note">
+                <strong>Consideración:</strong> GitHub Pages es excelente para proyectos estáticos, ofreciendo un despliegue sencillo y gratuito.
+            </div>
+        </section>
+    </div>
+</body>
+</html>

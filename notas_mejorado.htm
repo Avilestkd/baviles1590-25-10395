@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Notas del Alumno</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      box-sizing: border-box;
+      background-color: #f9f9f9;
+    }
+
+    h2 {
+      text-align: center;
+      color: #333;
+    }
+
+    details {
+      background: #fff;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      padding: 10px;
+      margin: 10px 0;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    summary {
+      font-size: 18px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+
+    th, td {
+      border: 1px solid #ccc;
+      padding: 8px 12px;
+      text-align: center;
+    }
+
+    th {
+      background-color: #f0f0f0;
+    }
+
+    td {
+      background-color: #fff;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Tabla de Notas</h2>
+
+  <details open>
+    <summary>Introducción</summary>
+    <table>
+      <tr><th>Nota 1er Parcial</th><th>Nota 2do Parcial</th><th>Puntos acumulados</th><th>Puntos perdidos</th></tr>
+      <tr><td>6/15</td><td>6/15</td><td>12/30</td><td>18/30</td></tr>
+    </table>
+  </details>
+
+  <details>
+    <summary>Lógica de Sistemas</summary>
+    <table>
+      <tr><th>Nota 1er Parcial</th><th>Nota 2do Parcial</th><th>Puntos acumulados</th><th>Puntos perdidos</th></tr>
+      <tr><td>15/15</td><td>12/15</td><td>27/30</td><td>03/30</td></tr>
+    </table>
+  </details>
+
+  <details>
+    <summary>Metodología</summary>
+    <table>
+      <tr><th>Nota 1er Parcial</th><th>Nota 2do Parcial</th><th>Puntos acumulados</th><th>Puntos perdidos</th></tr>
+      <tr><td>04/15</td><td>10/15</td><td>14/30</td><td>16/30</td></tr>
+    </table>
+  </details>
+
+  <details>
+    <summary>Contabilidad 🤮</summary>
+    <table>
+      <tr><th>Nota 1er Parcial</th><th>Nota 2do Parcial</th><th>Puntos acumulados</th><th>Puntos perdidos</th></tr>
+      <tr><td>08/15</td><td>10/15</td><td>18/30</td><td>12/30</td></tr>
+    </table>
+  </details>
+
+  <details>
+    <summary>Desarrollo Humano</summary>
+    <table>
+      <tr><th>Nota 1er Parcial</th><th>Nota 2do Parcial</th><th>Puntos acumulados</th><th>Puntos perdidos</th></tr>
+      <tr><td>12/15</td><td>05/15</td><td>17/30</td><td>13/30</td></tr>
+    </table>
+  </details>
+
+</body>
+</html>

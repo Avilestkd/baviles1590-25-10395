@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenido a Mi Sitio Web</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 50px 20px;
+            background-color: #e0f2f7; /* Un fondo azul claro y suave */
+            color: #333;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: calc(100vh - 40px); /* Ajusta para el padding del body principal si usas frameset */
+            box-sizing: border-box;
+        }
+
+        h1 {
+            color: #007bff; /* Azul vibrante */
+            font-size: 3em;
+            margin-bottom: 20px;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+        }
+
+        p {
+            font-size: 1.2em;
+            color: #555;
+            max-width: 600px;
+            margin: 0 auto 30px auto;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background-color: #28a745; /* Un botón verde para llamar a la acción */
+            color: #ffffff;
+            padding: 12px 30px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1em;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        .cta-button:hover {
+            background-color: #218838;
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body>
+    <h1>¡Bienvenido a Mi Sitio Personal!</h1>
+    <p>Explora las diferentes secciones para conocer mi hoja de vida, mis proyectos, una galería, videos interesantes y algunos juegos.</p>
+    <a href="hoja_vida.htm" target="contenido" class="cta-button">Empezar a Explorar</a>
+</body>
+</html>

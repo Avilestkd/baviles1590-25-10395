@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>WK1D</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center; /* Centramos el título verticalmente en la pantalla */
+            min-height: 100vh;
+            background: linear-gradient(to right, #2c3e50, #4a698a); /* Degradado de azul oscuro a gris azulado */
+            color: #ecf0f1; /* Texto blanco grisáceo */
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Sombra sutil para el texto */
+            overflow: hidden; /* Evita barras de desplazamiento */
+        }
+
+        h1 {
+            font-size: 5.5em; /* Título grande */
+            margin: 0;
+            padding: 0; /* ¡CAMBIO AQUÍ! Eliminamos el padding */
+            border-radius: 0; /* ¡CAMBIO AQUÍ! Eliminamos el border-radius */
+            background-color: transparent; /* ¡CAMBIO AQUÍ! Fondo transparente */
+            backdrop-filter: none; /* ¡CAMBIO AQUÍ! Eliminamos el desenfoque */
+            box-shadow: none; /* ¡CAMBIO AQUÍ! Eliminamos la sombra de la caja */
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            animation: fadeInScale 1.5s ease-out forwards; /* Animación de entrada del título */
+            position: relative; /* Mantenemos relative por si en el futuro se añade algo posicionado */
+            display: inline-block;
+        }
+
+        /* Eliminamos los estilos relacionados con la corona, ya no son necesarios */
+        /* .one-with-crown, .crown-above-one, .crown-above-one img */
+
+        /* Animaciones */
+        @keyframes fadeInScale {
+            from {
+                opacity: 0;
+                transform: scale(0.8);
+            }
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>WK1D</h1>
+</body>
+</html>

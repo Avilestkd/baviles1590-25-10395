@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Diagrama De Flujo</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px; /* Espacio alrededor del contenido */
+            background-color: #1a202c; /* Fondo oscuro casi negro para un look moderno */
+            color: #e2e8f0; /* Texto claro para contraste */
+            display: flex;
+            flex-direction: column; /* Organiza los elementos en columna */
+            align-items: center; /* Centra horizontalmente */
+            min-height: 100vh; /* Ocupa toda la altura de la ventana */
+            box-sizing: border-box; /* Asegura que padding no aumente el tamaño total */
+        }
+
+        h1 {
+            color: #4299e1; /* Un azul vibrante para el título */
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 2.5em;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra para el texto del título */
+        }
+
+        .video-container {
+            position: relative;
+            width: 100%;
+            max-width: 800px; /* Ancho máximo del video */
+            padding-bottom: 56.25%; /* Relación de aspecto 16:9 (altura / ancho) */
+            height: 0;
+            overflow: hidden;
+            background-color: #000; /* Fondo negro mientras carga o si no hay video */
+            border-radius: 12px; /* Esquinas redondeadas */
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5), 0 0 0 5px rgba(66, 153, 225, 0.3); /* Sombra y un borde de brillo azul */
+            transition: transform 0.3s ease-in-out; /* Transición suave para el hover */
+        }
+
+        .video-container:hover {
+            transform: scale(1.01); /* Ligeramente más grande al pasar el mouse */
+        }
+
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0; /* Asegura que el iframe no tenga su propio borde */
+            border-radius: 12px; /* Hereda las esquinas redondeadas del contenedor */
+        }
+    </style>
+</head>
+<body>
+    <h1>DIAGRAMAS DE FLUJO</h1>
+    <div class="video-container">
+        <iframe
+            src="https://www.youtube.com/embed/Kucgc6NpGwc?si=MrVmD8WRYBIE9V-L"
+            title="Diagrama de Flujo"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen>
+        </iframe>
+    </div>
+</body>
+</html>
